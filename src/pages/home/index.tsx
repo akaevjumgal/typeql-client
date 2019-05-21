@@ -6,7 +6,7 @@ import styles from './styles'
 
 export interface Props extends WithStyles<typeof styles> {}
 
-class HomePage extends React.Component<Props> {
+export default class HomePage extends React.Component<Props> {
     render() {
         return (
             <main>
@@ -15,5 +15,3 @@ class HomePage extends React.Component<Props> {
         )
     }
 }
-
-export default HomePage;

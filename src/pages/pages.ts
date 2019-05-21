@@ -1,5 +1,6 @@
 import HomePage from './home/index'
 import BlogsPage from './blogs/index'
+import UsersPage from './users'
 
 interface Props {
     readonly link: string
@@ -29,7 +30,12 @@ const Pages: PageMarkup[] = [
         link: '/blogs',
         page: BlogsPage,
         label: 'Articles'
-    }
+    },
+	{
+		link: '/users',
+		page: UsersPage,
+		label: 'Users'
+	}
 ]
 
 export default Pages

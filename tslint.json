@@ -12,7 +12,12 @@
         "member-access": false,
         "no-submodule-imports": false,
         "trailing-comma": false,
-        "object-literal-sort-keys": false
+        "object-literal-sort-keys": false,
+        "indent": false,
+        "max-classes-per-file": [false],
+        "no-namespace": [false],
+        "no-shadowed-variable": false,
+        "no-console": false
     },
     "rulesDirectory": []
 }
